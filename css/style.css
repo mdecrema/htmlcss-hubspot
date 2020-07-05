@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.pagina {
+    width: 80%;
+    background-color: transparent;
+    margin: auto;
+    font-family:  'Lato', sans-serif;
+}
+
+.nav-bar{
+    height: 70px; 
+    font-size: 14px;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+#english {
+    border-right: 1px solid #000;
+}
+
+#login {
+    border: 1px solid orange;
+    border-radius: 3px;
+    color: orange;
+    padding: 10px;
+}
+
+#free {
+    border: 1px solid orange;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+}
+
