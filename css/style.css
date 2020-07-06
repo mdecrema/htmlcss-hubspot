@@ -8,7 +8,7 @@
     width: 100%;
     background-color: transparent;
     margin: auto;
-    font-family:  'Lato', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;, sans-serif;
 }
 
 .nav-bar {
@@ -17,7 +17,7 @@
     position: relative;
     background-color: #F3F4FA;
     padding: 0 10%;
-    border-bottom: 1px solid dimgrey;
+    border-bottom: 1px solid #33475B;
 }
 
 .nav-bar::after {
@@ -46,7 +46,7 @@
 }
 
 .nav-bar-right {
-    width: 28%;
+    width: 24%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -59,7 +59,7 @@
 .nav-bar-right li {
     list-style: none;
     display: inline;
-    padding: 0 20px;
+    padding: 0 10px;
     line-height: 60px;
 }
 
@@ -88,6 +88,7 @@
 
 #english {
     border-right: 1px solid #000;
+    padding-left: 0;
 }
 
 .head-container {
@@ -101,7 +102,7 @@
 }
 
 .titolo {
-    width: 40%;
+    width: 30%;
     height: 400px;
     position: absolute;
     top: 10%;
@@ -110,19 +111,19 @@
 
 h1 {
     font-size: 50px;
-    color: dimgrey;
+    color: #33475B;
 }
 
 h3 {
     font-size: 16px;
-    color: dimgray;
+    color: #33475B;
     font-weight: 400;
     margin-top: 5%;
 }
 
 h4 {
     font-size: 14px;
-    color: dimgray;
+    color: #33475B;
     font-weight: 400;
     margin-top: 5%;
 }
@@ -162,7 +163,7 @@ h4 {
 
 .menu a {
     text-decoration: none;
-    color: dimgray;
+    color: #33475B;
 }
 
 #logo {
