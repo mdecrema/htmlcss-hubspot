@@ -130,7 +130,7 @@ h4 {
     margin-top: 5%;
 }
 
-#free2 {
+.free2 {
     padding: 15px 30px;
     border: 1px solid #FF7A59;
     border-radius: 3px;
@@ -429,6 +429,84 @@ hr {
 
 .third-down {
     border-right: 1px solid #fff;
+}
+
+.containers2 {
+    background-color: #fff;
+}
+
+.partners {
+    width: 70%;
+    height: 200px;
+    margin: 70px 0 20px 20%;
+}
+
+.part-left {
+    display: inline-block;
+    float: left;
+}
+
+.part-left h2 {
+    font-size: 40px;
+}
+
+.part-left h4 {
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.part-right {
+    width: 500px;
+    display: inline-block;
+    float: left;
+    margin-left: 200px;
+}
+
+.part-logos {
+    width: 100px;
+}
+
+.start {
+    width: 70%;
+    height: 400px;
+    margin-left: 15%;
+}
+
+.start-left {
+    width: 450px;
+    display: inline-block;
+    float: left;
+}
+
+.start-left h2 {
+    font-size: 30px;
+}
+
+.start-left p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 30px;
+}
+
+.start-left h4 {
+    font-size: 12px;
+}
+
+.start-right {
+    width:  150px;
+    display: inline-block;
+    float: left;
+    margin-left: 200px;
+}
+
+#woman {
+    width: 250px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #33475B;
 }
 
 
