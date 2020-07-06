@@ -355,18 +355,76 @@ hr {
     height: 500px;
     color: #fff;
     background-color: #00B0B2;
+    text-align: center;
+}
+
+.descrizione {
+    margin-top: 30px;
+}
+
+.descrizione p {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 22px;
 }
 
 .line-one {
-    width: 70%;
-    height: 150px;
+    width: 69%;
+    height: 130px;
     margin: auto;
-    background-color: azure;
+}
+
+.line-one div {
+    width: 230px;
+    height: 130px;
+    display: inline-block;
+    float: left;
 }
 
 .line-two {
-    width: 70%;
-    height: 150px;
+    width: 69%;
+    height: 130px;
     margin: auto;
-    background-color: azure;
 }
+
+.line-two div {
+    width: 230px;
+    height: 130px;
+    display: inline-block;
+    float: left;
+}
+
+
+.first-top {
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.second-top {
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.third-top {
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.fourth-top {
+    border-bottom: 1px solid #fff;
+}
+
+.first-down {
+    border-right: 1px solid #fff;
+}
+
+.second-down {
+    border-right: 1px solid #fff;
+}
+
+.third-down {
+    border-right: 1px solid #fff;
+}
+
+
+
