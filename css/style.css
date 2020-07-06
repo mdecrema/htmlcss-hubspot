@@ -6,9 +6,10 @@
 
 .pagina {
     width: 100%;
-    background-color: transparent;
+    background-color: #F3F4FA;
     margin: auto;
     font-family: 'Roboto Condensed', sans-serif;, sans-serif;
+    color: #33475B;
 }
 
 .nav-bar {
@@ -99,6 +100,7 @@
     background-position: 40% 40%;
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom: 3px solid #33475B;
 }
 
 .titolo {
@@ -168,4 +170,77 @@ h4 {
 
 #logo {
     vertical-align: middle;
+}
+
+.slogan {
+    width: 80%;
+    height: 250px;
+    margin: 3% 10%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.slogan h4 {
+    margin-top: 2%;
+}
+
+#cubo {
+    width: 200px;
+}
+
+.free-hubspot {
+    width: 70%;
+    height: 250px;
+    margin: 20px 15%;
+    background-color: #fff;
+    padding: 3%;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+}
+
+#left-sect {
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#crm {
+    width: 150px;
+}
+
+#info {
+    border: 1px solid #FF7A59;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5% 10%;
+    margin-top: 10px;
+    background-color: #FF7A59;
+}
+
+#right-sect {
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    line-height: 25px;
+}
+
+#right-sect h3 {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+#right-sect h4 {
+    font-size: 16px;
+}
+
+#right-sect li {
+    display: inline-block;
+    font-size: 14px;
+    padding: 3% 3% 0 0;
+}
+
+.fas {
+    color: #FF7A59;
 }
