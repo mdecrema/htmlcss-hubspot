@@ -211,7 +211,7 @@ h4 {
 
 #info {
     border: 1px solid #FF7A59;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #fff;
     padding: 5% 10%;
     margin-top: 10px;
@@ -243,4 +243,111 @@ h4 {
 
 .fas {
     color: #FF7A59;
+    margin-right: 5px;
 }
+
+.soluzioni {
+    width: 70%;
+    height: 550px;
+    margin: 40px 15%;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.soluzioni::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.soluzioni h3 {
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.soluzioni h4 {
+    margin: 10% 0 5%;
+}
+
+.soluzioni p {
+    min-height: 120px;
+}
+
+#sol-left {
+    width: 295px;
+    height: 100%;
+    padding: 2%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#sol-cent {
+    width: 295px;
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: #fff;
+}
+
+#sol-right {
+    width: 295px;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: #fff;
+}
+
+#scatola, #tools, #tavolo {
+    width: 100px;
+}
+
+.sol-img {
+    min-height: 120px;
+}
+
+.sol-img::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+hr {
+    width: 200px;
+    margin: 5% auto;
+}
+
+.feature {
+    text-align: left;
+    margin-top: 5%;
+}
+
+.feature li {
+    list-style: none;
+    line-height: 16px;
+}
+
+.info2 {
+    border: 1px solid #FF7A59;
+    border-radius: 5px;
+    padding: 5% 10%;
+    margin-top: 15%;
+    color: #fff;
+    background-color: #FF7A59;
+}
+
+
+
