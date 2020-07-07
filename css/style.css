@@ -284,7 +284,7 @@ h4 {
 }
 
 .sol-sect {
-    width: 295px;
+    width: calc(90%/3);
     height: 100%;
     padding: 2%;
     display: inline-block;
@@ -296,8 +296,8 @@ h4 {
 }
 
 #sol-cent {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .sol-img {
@@ -350,9 +350,9 @@ hr {
 }
 
 .line-one {
-    width: 69%;
-    height: 130px;
-    margin: 50px auto 0;
+    width: 70%;
+    height: 170px;
+    margin: 50px auto 0;    
 }
 
 .line-one div {
@@ -363,8 +363,8 @@ hr {
 }
 
 .line-two {
-    width: 69%;
-    height: 130px;
+    width: 70%;
+    height: 170px;
     margin: auto;
 }
 
