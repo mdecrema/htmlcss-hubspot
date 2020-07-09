@@ -62,7 +62,7 @@
 .nav-bar-right li {
     list-style: none;
     display: inline;
-    padding: 0 10px;
+    padding: 0 5px;
     line-height: 60px;
 }
 
@@ -73,6 +73,7 @@
     color: #FF7A59;
     background-color: #fff;
     font-size: 20x;
+    text-decoration: none;
 }
 
 #free {
@@ -82,6 +83,7 @@
     color: #fff;
     background-color: #FF7A59;
     font-size: 20x;
+    text-decoration: none;
 }
 
 #english {
@@ -117,7 +119,7 @@ h3 {
     font-size: 16px;
     color: #33475B;
     font-weight: 400;
-    margin-top: 5%;
+    margin: 5% 0 5%;
     line-height: 30px;
 }
 
@@ -125,7 +127,7 @@ h4 {
     font-size: 14px;
     color: #33475B;
     font-weight: 400;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .free2 {
@@ -135,6 +137,7 @@ h4 {
     color: #fff;
     background-color: #FF7A59;
     margin-top: 5%;
+    text-decoration: none;
 }
 
 .menu {
@@ -191,12 +194,18 @@ h4 {
 
 .free-hubspot {
     width: 70%;
-    height: 280px;
+    min-height: 300px;
     margin: 20px 15%;
     background-color: #fff;
     padding: 3%;
     border: 2px solid lightblue;
     border-radius: 5px;
+}
+
+.free-hubspot::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 #left-sect {
@@ -234,12 +243,20 @@ h4 {
 
 #right-sect h4 {
     font-size: 16px;
+    display: inline-block;
+}
+
+#hr-middle {
+    width: 400px;
+    margin-left: 5%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #right-sect li {
     display: inline-block;
     font-size: 14px;
-    padding: 3% 3% 0 0;
+    padding: 2% 3% 0 0;
 }
 
 .fas {
@@ -258,7 +275,7 @@ h4 {
 
 .soluzioni {
     width: 70%;
-    height: 550px;
+    min-height: 550px;
     margin: 40px 15%;
     line-height: 25px;
     font-size: 12px;
@@ -295,6 +312,12 @@ h4 {
     background-color: #fff;
 }
 
+.sol-sect::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 #sol-cent {
     margin-left: 5%;
     margin-right: 5%;
@@ -312,7 +335,7 @@ hr {
 
 .feature {
     text-align: left;
-    margin-top: 5%;
+    margin: 5% 0 10%;
 }
 
 .feature li {
@@ -324,16 +347,16 @@ hr {
     border: 1px solid #FF7A59;
     border-radius: 5px;
     padding: 5% 10%;
-    margin-top: 15%;
     color: #fff;
     background-color: #FF7A59;
+    text-decoration: none;
 }
 
 .tabella-verde {
     width: 100%;
     height: 700px;
     color: #fff;
-    background-color: #00B0B2;
+    background: linear-gradient(90deg, rgba(0, 174, 180,1 ) 0%, rgba(0, 189, 165,1 ) 100%);
     text-align: center;
 }
 
@@ -352,7 +375,7 @@ hr {
 .line-one {
     width: 70%;
     height: 170px;
-    margin: 50px auto 0;    
+    margin: 50px auto 0;
 }
 
 .line-one div {
@@ -430,11 +453,11 @@ hr {
 .partners {
     width: 70%;
     height: 200px;
-    margin: 70px 0 20px 20%;
+    margin: 70px auto 20px;
 }
 
 .part-left {
-    width: 30%;
+    width: 20%;
     display: inline-block;
     float: left;
 }
@@ -452,12 +475,13 @@ hr {
     width: 60%;
     display: inline-block;
     float: left;
-    margin-left: 50px;
+    margin-left: 20%;
 }
 
 .part-logos {
     width: 100px;
     margin-left: 15px;
+    vertical-align: middle;
 }
 
 .start {
